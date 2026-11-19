@@ -1,5 +1,5 @@
 -- ==============================================================================
--- visualizer.lua — 音频频谱可视化生成器 (紧凑修正版)
+-- visualizer.lua — 音频频谱可视化生成器
 -- ==============================================================================
 local options = require 'mp.options'
 local assdraw = require 'mp.assdraw'
@@ -292,10 +292,6 @@ local function close_visualizer()
     mp.osd_message("visualizer: off")
 end
 
--- 兼容旧的内部绑定 (默认按键 c)
-mp.add_key_binding("c", "cycle-visualizer", cycle_visualizer)
-
--- 注册 script-message 接口供 input.conf 调用
 mp.register_script_message("visualizer", function(arg)
     if arg == "off" then
         close_visualizer()

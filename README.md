@@ -5,7 +5,7 @@
 
 ![image](./images/visualizer.gif)
 
-## 📦 安装方法
+## 📦 安装方法 Installation
 
 1. 将 `visualizer.lua` 复制到你的 mpv 配置目录下的 `scripts` 文件夹中：
 
@@ -15,14 +15,14 @@
 
 2. 设置快捷键
 
-打开配置文件夹中的 `input.conf`，写入快捷键
+- 打开配置文件夹中的 `input.conf`，写入快捷键
 
 ```
 c    script-message visualizer      #menu: 音频 > 开启/切换 可视化频谱
 C    script-message visualizer off  #menu: 音频 > 关闭 可视化频谱
 ```
 
-### ⚙️ 配置
+### ⚙️ 配置 Configuration
 
 - 配置文件：`script-opts/visualizer.conf`
 
