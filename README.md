@@ -29,7 +29,7 @@ C    script-message visualizer off  #menu: 音频 > 关闭 可视化频谱
 ```bash
 # mode=novideo, force
 mode=novideo
-# name=avectorscope, showfreqs, linefreqs, off
+# name=avectorscope, avectorscope-cd, showfreqs, linefreqs, off
 name=avectorscope
 # quality=verylow, low, medium, high, veryhigh
 quality=medium
